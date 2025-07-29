@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Achinthya | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+  <!-- Fixed Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">AAD</span>
+      </div>
+      <div class="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <button class="theme-toggle" id="theme-toggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-greeting">Hello! I'm</p>
+          <h1 class="hero-name">Achinthya</h1>
+          <h2 class="hero-title">UI/UX Designer, QA, Web Developer, Software Engineering</h2>
+          <p class="hero-description">
+           I'm an enthusiastic and motivated undergradute with a passion for technology. 
+           I'm eager to gain real-world experience through an internship where I can contribute, learn from 
+           professionals, and grow as a developer.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            <a href="Achinthya Dayathilaka_Undergraduate.pdf" class="btn btn-primary">Download My Cv</a>
+          </div>
+          <div class="hero-social">
+            <a href="https://github.com/Achinthya-Ashinsani" target="_blank" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/achinthya-ashinsani-a4b8362a3/" target="_blank" class="social-link">
+              <i class="fab fa-linkedin"></i>
+            </a> 
+            <a href="https://www.youtube.com/@AchinthyaDayathilaka" target="_blank" class="social-link">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-card">
+            <div class="profile-img">
+              <img src="mypic.jpeg" alt="Achinthya's Profile Picture" />
+            </div>
+            <div class="floating-elements">
+              <div class="floating-element" data-tech="React">
+                <i class="fab fa-react"></i>
+              </div>
+              <div class="floating-element" data-tech="JavaScript">
+                <i class="fab fa-js-square"></i>
+              </div>
+              <div class="floating-element" data-tech="CSS">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <div class="floating-element" data-tech="HTML">
+                <i class="fab fa-html5"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Get to know more about who I am and what I do</p>
+      </div>
+      <div class="about-content">
+  <div class="about-text">
+    <div class="about-intro">
+      <h3>Hello! I'm Achinthya</h3>
+      <p>
+        I'm a motivated Software Engineering undergraduate eager to apply my 
+        academic knowledge and project experience in real-world environment.
+        I enjoy working collaboratively, adapt quickly to new tools and technologies, 
+        and thrive in dynamic, team-oriented settings. I’m looking forward to growing 
+        professionally and making a meaningful impact.
+      </p>
+    </div>
+    <div class="about-details">
+      <div class="detail-item">
+        <h4>🎯 What I Do</h4>
+        <p>I focus on designing and developing user-centric, high-performance web applications. With experience in UI/UX design, 
+          quality assurance, and full-stack development using technologies like React and Spring Boot, I aim to deliver seamless, responsive, and reliable digital experiences.</p>
+      </div>
+      <div class="detail-item">
+        <h4>🚀 Goals</h4>
+        <p>I'm always eager to take on new challenges and collaborate on projects that make a positive impact.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Profile image placed to the right -->
+  <div class="profile-img">
+    <img src="mypic.jpeg" alt="Achinthya's Profile Picture" />
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <p class="section-subtitle">The tools and technologies I work with</p>
+      </div>
+      <div class="skills-content">
+        <div class="skill-category">
+          <h3>Programming Languages</h3>
+          <div class="skill-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-html5"></i>
+              </div>
+              <span>HTML5</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <span>CSS3</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-java"></i>
+              </div>
+              <span>Java</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <span>C++</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-php"></i>
+              </div>
+              <span>PHP</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-hashtag"></i>
+              </div>
+              <span>C#</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Databases</h3>
+          <div class="skill-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <span>MySQL</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-elephant"></i>
+              </div>
+              <span>PostgreSQL</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-leaf"></i>
+              </div>
+              <span>MongoDB</span>
+              <small>(Basic)</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Frameworks & Libraries</h3>
+          <div class="skill-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-seedling"></i>
+              </div>
+              <span>Spring Boot</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-react"></i>
+              </div>
+              <span>React.js</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-js-square"></i>
+              </div>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Tools & Technologies</h3>
+          <div class="skill-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <span>VS Code</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-eclipse"></i>
+              </div>
+              <span>Eclipse</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-figma"></i>
+              </div>
+              <span>Figma</span>
+              <small>(Basic)</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Core Concepts</h3>
+          <div class="skill-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-cube"></i>
+              </div>
+              <span>OOP</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-paint-brush"></i>
+              </div>
+              <span>UI Design</span>
+              <small>(Basic)</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">A showcase of my recent work and personal projects</p>
+      </div>
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+        <button class="filter-btn" data-filter="backend">Backend</button>
+        <button class="filter-btn" data-filter="uiux">UI/UX</button>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-category="fullstack">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <img src="images/wegavilla.jpeg" alt="Inventory App" />
+          </div>
+          <div class="project-content">
+            <h3>Wega-Villa</h3>
+            <p>Developing a user-friendly and efficient villa management system to meet the specific needs of a real client.   
+              This system features elegant aesthetics, a booking system, and a property showcase with tour guide packages and tour arranging.</p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Spring Boot</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Tailwind</span>
+              <span class="tech-tag">Json</span>
+              <span class="tech-tag">GSAP</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://www.figma.com/design/WFG73UmoCcqhafVvNkIInZ/Wega-Villa-98?t=y3Fc5O7GZUdau4eg-0" class="btn btn-secondary">
+                <i class="fab fa-figma"></i> View Design
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="fullstack">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <img src="images/flavorflex.jpeg" alt="Portfolio Website" />
+          </div>
+          <div class="project-content">
+            <h3>FlavourFlex App</h3>
+            <p>Built an expert system to suggest recipes based on user preferences and available ingredients. 
+              This system helps users find recipes based on their leftover ingredients and cooking equipment with AI integration.</p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">Django</span>
+              <span class="tech-tag">Flutter</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Expert System</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Achinthya-Ashinsani/FlavourFlex---Recipe-Recommendation-System" target="_blank" class="btn btn-secondary">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="backend">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <img src="images/library system.png" alt="E-Commerce App" />
+          </div>
+          <div class="project-content">
+            <h3>Library Management System</h3>
+            <p>The Library Management System is a simple C++ console application that allows admins and librarians to manage 
+              books and borrowers. Admins can register librarians and set rules, while librarians can add, search, and delete 
+              books and borrower records using file-based data storage.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">C++</span>
+              <span class="tech-tag">File System</span>
+              <span class="tech-tag">Console App</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Achinthya-Ashinsani/Library_System" class="btn btn-secondary">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="backend">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <img src="images/Hotel Managment  project.png" alt="E-Learning Platform" />
+          </div>
+          <div class="project-content">
+            <h3>Hotel Management System</h3>
+            <p>Designed and developed a hotel room booking system to manage reservations, customer records, and room availability. 
+              Built using C# with SQL Server for backend database operations and featuring a user-friendly interface for efficient hotel operations.</p>
+            <div class="project-tech">
+              <span class="tech-tag">C#</span>
+              <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">Windows Forms</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Achinthya-Ashinsani/Hotell-Room-Reservation" class="btn btn-secondary">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="fullstack">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <img src="images/weather app.png" alt="Task Manager App" />
+          </div>
+          <div class="project-content">
+            <h3>Weather App</h3>
+            <p>This project is a simple web-based weather application that uses HTML for structure, CSS for styling, and JavaScript for 
+              fetching and displaying weather data from the OpenWeatherMap API. Users can enter a city name to view the current 
+              temperature, weather description, and a 24-hour hourly forecast.</p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">OpenWeather API</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Achinthya-Ashinsani/Weather-app" class="btn btn-secondary">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="uiux">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <img src="images/calculator.png" alt="Calculator App" />
+          </div>
+          <div class="project-content">
+            <h3>Calculator App</h3>
+            <p>A fully functional calculator application built with HTML, CSS, and JavaScript that features basic arithmetic operations, 
+              decimal calculations, and a clean user interface with responsive design. The calculator provides an intuitive user experience 
+              with modern styling and smooth interactions.</p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Responsive Design</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-secondary">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="fullstack">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <img src="images/solasystem.png" alt="Solar System Animation" />
+          </div>
+          <div class="project-content">
+            <h3>Solar System Animation</h3>
+            <p>This project is a CSS-based solar system animation that visually represents the Sun and the 8 planets
+              revolving around it using keyframe animations. Each planet has a circular orbit and unique animation duration 
+              to simulate real orbital speeds, creating an educational and visually appealing planetary model in a web environment.</p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">Animations</span>
+              <span class="tech-tag">Keyframes</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Achinthya-Ashinsani/Animate_Sola_System" class="btn btn-secondary">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="uiux">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-figma"></i>
+                </a>
+              </div>
+            </div>
+            <img src="images/hotel management figma.png" alt="UI/UX Design Project" />
+          </div>
+          <div class="project-content">
+            <h3>Mobile App UI/UX Design</h3>
+            <p>Designed a modern and intuitive user interface for a mobile application focused on user experience. Created wireframes, prototypes, and high-fidelity mockups with attention to usability principles, accessibility, and visual hierarchy to enhance user engagement and satisfaction.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Figma</span>
+              <span class="tech-tag">UI Design</span>
+              <span class="tech-tag">UX Research</span>
+              <span class="tech-tag">Prototyping</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://www.figma.com/design/13NYViH6w7sx6ybKSrdMIl/Untitled?node-id=0-1&p=f&t=WxBE1OQLHKwgnaAT-0" target="_blank" class="btn btn-secondary">
+                <i class="fab fa-figma"></i> View Design
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="uiux">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <img src="images/Skill Hunt Web Design.png" alt="Portfolio Website" />
+          </div>
+          <div class="project-content">
+            <h3>Skill Hunt Web Design</h3>
+            <p>Job portal web design with user-friendly interface for job seekers and recruiters with modern UI patterns.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Figma</span>
+              <span class="tech-tag">Job Portal</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://www.figma.com/design/2Y4D7JXZoZI7Vp4zZfq0L6/Skill-Hunt?node-id=0-1&p=f&t=LHni2jjwmQP5Ydgf-0" target="_blank" class="btn btn-secondary">
+                <i class="fab fa-figma"></i> View Design
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="uiux">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <img src="images/wegavilla figma.png" alt="Task Management API" />
+          </div>
+          <div class="project-content">
+            <h3>Wega Villa</h3>
+            <p>Luxury villa rental website design with elegant aesthetics, booking system, and property showcase.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Figma</span>
+              <span class="tech-tag">Web Design</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://www.figma.com/design/WFG73UmoCcqhafVvNkIInZ/Wega-Villa-98?node-id=0-1&p=f&t=N48IvCvvh4mYrhs5-0" class="btn btn-secondary">
+                <i class="fab fa-figma"></i> View Design
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-subtitle">Have a project in mind? Let's discuss how we can bring it to life</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-form">
+          <form id="contact-form">
+            <div class="form-group">
+              <input type="text" name="from_name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="from_email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <span class="btn-text">Send Message</span>
+              <span class="btn-loading" style="display: none;">
+                <i class="fas fa-spinner fa-spin"></i> Sending...
+              </span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Achinthya. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="https://github.com/Achinthya-Ashinsani" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/achinthya-ashinsani-a4b8362a3/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top-btn" title="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script>
+    // Theme toggle functionality
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+    const icon = themeToggle.querySelector('i');
+
+    // Check for saved theme preference
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      body.classList.add(savedTheme);
+      updateThemeIcon();
+    }
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-theme');
+      updateThemeIcon();
+      
+      // Save theme preference
+      if (body.classList.contains('dark-theme')) {
+        localStorage.setItem('theme', 'dark-theme');
+      } else {
+        localStorage.removeItem('theme');
+      }
+    });
+
+    function updateThemeIcon() {
+      if (body.classList.contains('dark-theme')) {
+        icon.className = 'fas fa-sun';
+      } else {
+        icon.className = 'fas fa-moon';
+      }
+    }
+
+    // Mobile menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking on nav links
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+      });
+    });
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          const offsetTop = target.offsetTop - 80; // Account for fixed navbar
+          window.scrollTo({
+            top: offsetTop,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Intersection Observer for animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate');
+        }
+      });
+    }, observerOptions);
+
+    // Observe sections for animations
+    document.querySelectorAll('section').forEach(section => {
+      observer.observe(section);
+    });
+
+    // Typing animation for hero title
+    const heroName = document.querySelector('.hero-name');
+    const text = heroName.textContent;
+    heroName.textContent = '';
+    
+    let i = 0;
+    const typeWriter = () => {
+      if (i < text.length) {
+        heroName.textContent += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, 150);
+      }
+    };
+    
+    setTimeout(typeWriter, 1000);
+
+    // Floating elements animation
+    const floatingElements = document.querySelectorAll('.floating-element');
+    floatingElements.forEach((element, index) => {
+      element.style.animationDelay = `${index * 0.5}s`;
+    });
+
+    // EmailJS configuration - Replace with your actual EmailJS credentials
+    const emailjsConfig = {
+      publicKey: "YOUR_PUBLIC_KEY", // Get from EmailJS dashboard
+      serviceId: "YOUR_SERVICE_ID", // Get from EmailJS dashboard  
+      templateId: "YOUR_TEMPLATE_ID" // Get from EmailJS dashboard
+    };
+
+    // Check if EmailJS is configured
+    const isEmailJSConfigured = emailjsConfig.publicKey !== "YOUR_PUBLIC_KEY" && 
+                               emailjsConfig.serviceId !== "YOUR_SERVICE_ID" && 
+                               emailjsConfig.templateId !== "YOUR_TEMPLATE_ID";
+
+    if (isEmailJSConfigured) {
+      emailjs.init(emailjsConfig.publicKey);
+    }
+
+    // Form submission handler
+    const contactForm = document.getElementById('contact-form');
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      const submitBtn = contactForm.querySelector('button[type="submit"]');
+      const btnText = submitBtn.querySelector('.btn-text');
+      const btnLoading = submitBtn.querySelector('.btn-loading');
+      const formData = new FormData(contactForm);
+      
+      // Show loading state
+      btnText.style.display = 'none';
+      btnLoading.style.display = 'inline-flex';
+      submitBtn.disabled = true;
+      
+      try {
+        if (isEmailJSConfigured) {
+          // Send email using EmailJS
+          const response = await emailjs.sendForm(
+            emailjsConfig.serviceId, 
+            emailjsConfig.templateId, 
+            contactForm
+          );
+          
+          console.log('EmailJS SUCCESS!', response.status, response.text);
+          showSuccessMessage(formData.get('from_name'));
+          contactForm.reset();
+          
+        } else {
+          // Fallback: Open email client with pre-filled content
+          const name = formData.get('from_name');
+          const email = formData.get('from_email');
+          const message = formData.get('message');
+          
+          const subject = `Portfolio Contact from ${name}`;
+          const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${message}`;
+          
+          window.open(`mailto:aachinthya2001@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`);
+          showSuccessMessage(name);
+          contactForm.reset();
+        }
+        
+      } catch (error) {
+        console.error('Email sending failed:', error);
+        showErrorMessage();
+      }
+      
+      // Reset button state
+      btnText.style.display = 'inline';
+      btnLoading.style.display = 'none';
+      submitBtn.disabled = false;
+    });
+
+    // Success message function
+    function showSuccessMessage(userName) {
+      showMessageModal(
+        '✅ Message Sent Successfully!',
+        `Hi ${userName}! Thank you for reaching out to me. Your message has been received and I'll get back to you within 24 hours. I appreciate your interest in my work!`,
+        'success'
+      );
+    }
+
+    // Error message function  
+    function showErrorMessage() {
+      showMessageModal(
+        '❌ Message Failed to Send',
+        'Sorry, there was an error sending your message. Please try again or contact me directly at aachinthya2001@gmail.com. You can also reach out via LinkedIn or GitHub.',
+        'error'
+      );
+    }
+
+    // Generic message modal function
+    function showMessageModal(title, message, type) {
+      // Remove existing modal if any
+      const existingModal = document.getElementById('responseModal');
+      if (existingModal) {
+        existingModal.remove();
+      }
+
+      // Create modal HTML
+      const modalHTML = `
+        <div id="responseModal" class="message-modal" style="display: flex;">
+          <div class="message-modal-content">
+            <div class="message-header ${type}">
+              <h3>${title}</h3>
+              <span class="close-btn" onclick="closeResponseModal()">&times;</span>
+            </div>
+            <div class="message-body">
+              <p>${message}</p>
+            </div>
+            <div class="message-footer">
+              <button class="btn btn-primary" onclick="closeResponseModal()">OK</button>
+            </div>
+          </div>
+        </div>
+      `;
+
+      // Add modal to body
+      document.body.insertAdjacentHTML('beforeend', modalHTML);
+      document.body.style.overflow = 'hidden';
+    }
+
+    // Close response modal function
+    function closeResponseModal() {
+      const modal = document.getElementById('responseModal');
+      if (modal) {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+        modal.remove();
+      }
+    }
+
+    // Parallax effect for hero section
+    window.addEventListener('scroll', () => {
+      const scrolled = window.pageYOffset;
+      const hero = document.querySelector('.hero');
+      const rate = scrolled * -0.3;
+      
+      if (hero) {
+        hero.style.transform = `translateY(${rate}px)`;
+      }
+    });
+
+    // Project card hover effects
+    document.querySelectorAll('.project-card').forEach(card => {
+      card.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateY(-10px)';
+      });
+      
+      card.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateY(0)';
+      });
+    });
+
+    // Scroll indicator
+    const scrollIndicator = document.querySelector('.scroll-indicator');
+    scrollIndicator.addEventListener('click', () => {
+      document.querySelector('#about').scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+
+    // Back to Top functionality
+    const backToTopBtn = document.getElementById('back-to-top');
+    
+    // Show/hide back to top button based on scroll position
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTopBtn.classList.add('show');
+      } else {
+        backToTopBtn.classList.remove('show');
+      }
+    });
+    
+    // Smooth scroll to top when button is clicked
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
+    // Message Box Functions
+    function showMessageBox() {
+      document.getElementById('messageModal').style.display = 'flex';
+      document.body.style.overflow = 'hidden'; // Prevent background scrolling
+    }
+
+    function closeMessageBox() {
+      document.getElementById('messageModal').style.display = 'none';
+      document.body.style.overflow = 'auto'; // Restore scrolling
+    }
+
+    function scrollToContact() {
+      closeMessageBox();
+      document.querySelector('#contact').scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+
+    // Show message box after page loads (optional)
+    window.addEventListener('load', () => {
+      setTimeout(showMessageBox, 2000); // Show after 2 seconds
+    });
+
+    // Close modal when clicking outside of it
+    window.addEventListener('click', (e) => {
+      const modal = document.getElementById('messageModal');
+      if (e.target === modal) {
+        closeMessageBox();
+      }
+    });
+
+    // Project filter functionality
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Remove active class from all buttons
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        button.classList.add('active');
+
+        const filterValue = button.getAttribute('data-filter');
+
+        projectCards.forEach(card => {
+          if (filterValue === 'all') {
+            card.style.display = 'block';
+            card.style.animation = 'fadeInUp 0.5s ease-in-out';
+          } else {
+            const cardCategory = card.getAttribute('data-category');
+            if (cardCategory === filterValue) {
+              card.style.display = 'block';
+              card.style.animation = 'fadeInUp 0.5s ease-in-out';
+            } else {
+              card.style.display = 'none';
+            }
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
